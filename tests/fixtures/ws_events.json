@@ -1,0 +1,15 @@
+{
+  "about": "Events a violetas/subscribe client receives for each action, as asserted by tests/test_websocket.py and replayed by verify/browser.mjs.",
+  "subscribe": [
+    {"enabled": true, "count": 25, "speed": "normal", "opacity": 0.9}
+  ],
+  "rename_entity_id": [
+    {"enabled": true, "count": 25, "speed": "normal", "opacity": 0.9}
+  ],
+  "reload_entry": [
+    {"enabled": true, "count": 25, "speed": "normal", "opacity": 0.9}
+  ],
+  "unload_entry": [
+    {"enabled": false, "count": 25, "speed": "normal", "opacity": 0.9}
+  ]
+}

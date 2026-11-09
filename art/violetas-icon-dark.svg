@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Violetas brand icon (dark backgrounds): one violet, same petal geometry as the falling flowers. Original artwork, MIT. -->
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="-50 -47 100 100">
+  <g>
+    <ellipse cx="0" cy="-22" rx="15" ry="22" transform="rotate(-28)" fill="#9b59b6"/>
+    <ellipse cx="0" cy="-22" rx="15" ry="22" transform="rotate(28)" fill="#9b59b6"/>
+    <ellipse cx="0" cy="-19" rx="13" ry="19" transform="rotate(-105)" fill="#c39be3"/>
+    <ellipse cx="0" cy="-19" rx="13" ry="19" transform="rotate(105)" fill="#c39be3"/>
+    <ellipse cx="0" cy="-20" rx="17" ry="21" transform="rotate(180)" fill="#e3cdf5"/>
+    <line x1="0" y1="6" x2="-6.4" y2="20" stroke="#6c3483" stroke-width="2.2" stroke-linecap="round" stroke-opacity="0.85"/>
+      <line x1="0" y1="6" x2="0" y2="22" stroke="#6c3483" stroke-width="2.2" stroke-linecap="round" stroke-opacity="0.85"/>
+      <line x1="0" y1="6" x2="6.4" y2="20" stroke="#6c3483" stroke-width="2.2" stroke-linecap="round" stroke-opacity="0.85"/>
+    <circle r="6" fill="#fff6cf"/>
+    <circle r="2.6" cy="1" fill="#f2c418"/>
+  </g>
+</svg>

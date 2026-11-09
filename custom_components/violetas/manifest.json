@@ -1,0 +1,22 @@
+{
+  "domain": "violetas",
+  "name": "Violetas",
+  "after_dependencies": [
+    "frontend"
+  ],
+  "codeowners": [
+    "@claudiojara"
+  ],
+  "config_flow": true,
+  "dependencies": [
+    "http",
+    "websocket_api"
+  ],
+  "documentation": "https://github.com/claudiojara/ha-violetas",
+  "integration_type": "service",
+  "iot_class": "calculated",
+  "issue_tracker": "https://github.com/claudiojara/ha-violetas/issues",
+  "requirements": [],
+  "single_config_entry": true,
+  "version": "0.1.0"
+}

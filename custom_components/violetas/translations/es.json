@@ -1,0 +1,63 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Violetas",
+        "description": "Añade el interruptor Violetas. Mientras está encendido, caen violetas en todos los paneles para todos los usuarios. No hace falta nada más: la cantidad de violetas, la velocidad y la opacidad se cambian después en Configurar."
+      }
+    },
+    "abort": {
+      "single_instance_allowed": "Violetas ya está configurada."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Violetas",
+        "description": "Los cambios se aplican de inmediato en los paneles abiertos.",
+        "data": {
+          "count": "Cantidad de violetas",
+          "speed": "Velocidad",
+          "opacity": "Opacidad"
+        },
+        "data_description": {
+          "count": "Con menos violetas, las tabletas y los teléfonos antiguos funcionan con más fluidez.",
+          "speed": "Qué tan rápido caen las violetas.",
+          "opacity": "1 es totalmente opaco."
+        }
+      }
+    }
+  },
+  "selector": {
+    "speed": {
+      "options": {
+        "slow": "Lenta",
+        "normal": "Normal",
+        "fast": "Rápida"
+      }
+    }
+  },
+  "entity": {
+    "switch": {
+      "violetas": {
+        "name": "Violetas",
+        "state_attributes": {
+          "count": {
+            "name": "Cantidad de violetas"
+          },
+          "speed": {
+            "name": "Velocidad",
+            "state": {
+              "slow": "Lenta",
+              "normal": "Normal",
+              "fast": "Rápida"
+            }
+          },
+          "opacity": {
+            "name": "Opacidad"
+          }
+        }
+      }
+    }
+  }
+}

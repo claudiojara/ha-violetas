@@ -1,0 +1,63 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Violetas",
+        "description": "Adds the Violetas switch. While it is on, violets fall on every dashboard for every user. No other setup is needed: change the number of violets, the speed and the opacity later in Configure."
+      }
+    },
+    "abort": {
+      "single_instance_allowed": "Violetas is already set up."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Violetas",
+        "description": "Changes apply right away on open dashboards.",
+        "data": {
+          "count": "Number of violets",
+          "speed": "Speed",
+          "opacity": "Opacity"
+        },
+        "data_description": {
+          "count": "Fewer violets run more smoothly on older tablets and phones.",
+          "speed": "How fast the violets fall.",
+          "opacity": "1 is fully opaque."
+        }
+      }
+    }
+  },
+  "selector": {
+    "speed": {
+      "options": {
+        "slow": "Slow",
+        "normal": "Normal",
+        "fast": "Fast"
+      }
+    }
+  },
+  "entity": {
+    "switch": {
+      "violetas": {
+        "name": "Violetas",
+        "state_attributes": {
+          "count": {
+            "name": "Number of violets"
+          },
+          "speed": {
+            "name": "Speed",
+            "state": {
+              "slow": "Slow",
+              "normal": "Normal",
+              "fast": "Fast"
+            }
+          },
+          "opacity": {
+            "name": "Opacity"
+          }
+        }
+      }
+    }
+  }
+}
